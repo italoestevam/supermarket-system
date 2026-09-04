@@ -1,6 +1,7 @@
 package model;
 public class Produto {
 
+
     private long id;
     private String nameProduto;
     private Integer estoque;
@@ -17,6 +18,9 @@ public class Produto {
         this.precoProduto = precoProduto;
         this.categoria = categoria;
     }
+
+
+
 
     public long getId() {
         return id;
@@ -57,4 +61,8 @@ public class Produto {
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
+
+
+
+
 }
