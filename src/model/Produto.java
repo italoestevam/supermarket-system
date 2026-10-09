@@ -2,7 +2,7 @@ package model;
 public class Produto {
 
 
-    private long id;
+    private Long id;
     private String nameProduto;
     private Integer estoque;
     private double precoProduto;
@@ -22,7 +22,7 @@ public class Produto {
 
 
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
